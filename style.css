@@ -1,0 +1,135 @@
+@import "~@feizheng/react-modal-manager/dist/style.scss";
+
+body {
+  background-color: #282c34;
+  color: white;
+  padding: 40px;
+  font-family: Arial;
+  text-align: center;
+}
+
+#game-name {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#finished-list {
+  display: flex;
+  flex-direction: column;
+}
+
+#mafia-container,
+#cop-container,
+#mutilator-container,
+#medic-container,
+#bus-driver-container,
+#arsonist-container {
+  display: flex;
+  justify-content: center;
+  margin: 7.5px;
+  /* width: 150px; */
+  /* flex-direction: row; */
+}
+
+#mafia-night,
+#cop-night,
+#mutilator-night,
+#medic-night,
+#bus-driver-night {
+  margin: 5px;
+}
+
+#reset-button {
+  background: red;
+  border: none;
+}
+
+#picking-roles-list {
+  display: flex;
+  flex-direction: column;
+}
+
+#picking-role {
+  margin: 5px;
+}
+
+.popup {
+  margin-top: 20px;
+  background: #262222;
+  border: 5px solid #fc9003;
+  border-style: dotted;
+  border-radius: 40px 40px 40px 40px;
+}
+
+#popup-close,
+#find-your-role-button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+#popup-close {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  padding: 6px 20px;
+  margin: 0;
+  margin-left: 10px;
+  cursor: pointer;
+  border: 1px solid #bbb;
+  overflow: visible;
+  font: 13px arial, helvetica, sans-serif;
+  text-decoration: none;
+  white-space: nowrap;
+  /* color: #555; */
+}
+
+#find-your-role-button {
+  margin-left: 6px;
+}
+
+#start-story-button {
+  margin-top: 5px;
+}
+
+#mutilator-input,
+#head,
+#mouth {
+  margin-left: 4px;
+  margin-right: 2px;
+}
+
+#cop-input {
+  margin-left: 4px;
+  margin-right: 5px;
+}
+
+#cop-input-button {
+  background-color: #008705; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 5px;
+  border-radius: 40px 40px 40px 40px;
+}
+
+#cop-status-check {
+  margin-top: 4px;
+  background: #cc0000;
+  border-radius: 40px 40px 40px 40px;
+}
+
+#game-logo {
+  width: 60px;
+}
+
+#bus-driver-input-2 {
+  margin-top: 4px;
+}
+
+#mafia-input,
+#medic-input {
+  margin-left: 2px;
+}
